@@ -59,7 +59,7 @@ public protocol JTAppleCalendarViewDataSource: class {
 /// The delegate of a JTAppleCalendarView object must adopt the
 /// JTAppleCalendarViewDelegate protocol Optional methods of the protocol
 /// allow the delegate to manage selections, and configure the cells
-public protocol JTAppleCalendarViewDelegate: class {
+public protocol JTAppleCalendarViewDelegate: class, NSObjectProtocol {
     /// Asks the delegate if selecting the date-cell with a specified date is
     /// allowed
     /// - Parameters:
